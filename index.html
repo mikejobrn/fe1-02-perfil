@@ -1,145 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="https://assets.wizardingworld.com/avatars/fb162c4a-d43a-4cc1-b97c-b3a423fc9158/9f306d2e504297230217e941c34b7e46.png" />
-    <title>Perfil</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik+Doodle+Shadow&display=swap');
+<html>
+    <head></head>
+    <body>
+        <img src="data:image/jpeg;base64,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" alt="Foto do perfil">
 
-      html, body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+        <h1>Mike Job</h1>
 
-      html {
-        background: #591e1c;
-        font-family: 'Nunito', sans-serif;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+        <p>
+            <a href="https://mikejobrn.github.io/fe1-aulas/">Minha primeira atividade</a>
+        </p>
 
-      body {
-        background: white;
-        width: 100vw;
-        max-width: 650px;
-        text-align: center;
-        border-radius: 20px;
-        box-shadow: 0 0 10px #000000aa;
-        padding: 25px;
-        margin-top: 150px;
-        margin-bottom: 50px;
-      }
+        <hr>
 
-      img {
-        margin-top: -125px;
-        width: 200px;
-        height: 200px;
-        border-radius: 110px;
-        object-fit: cover;
-        border: 10px #e39942 solid;
-      }
+        <p>
+            You say you love me, I say you crazy
+            <br>
+            We're nothing more than friends
+            <br>
+            You're not my lover, more like a brother
+            <br>
+            I known you since we were like ten, yeah
+        </p>
 
-      h1, h2 {
-        font-family: 'Rubik Doodle Shadow';
-        color: #591e1c;
-      }
+        <p>
+            Don't mess it up, talking that shit
+            <br>
+            Only gonna push me away, that's it
+            <br>
+            When you say you love me, that make me crazy
+            <br>
+            Here we go again
+        </p>
 
-      h1 {
-        font-size: 40px;
-      }
+        <h2>Top 10 séries</h2>
 
-      h2 {
-        font-size: 30px;
-      }
+        <ol>
+            <li>Game of Thrones</li>
+            <li>The Last of Us</li>
+        </ol>
 
-      p {
-        font-style: italic;
-        font-size: 15px;
-      }
+        <h2>Top 10 jogos</h2>
 
-      ol, ul {
-        text-align: left;
-      }
-
-      li::marker {
-        color: #e39942;
-        font-weight: bold;
-        font-size: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <img
-      src="https://assets.wizardingworld.com/avatars/fb162c4a-d43a-4cc1-b97c-b3a423fc9158/9f306d2e504297230217e941c34b7e46.png"
-      alt=""
-    />
-
-    <h1>Mike Job</h1>
-
-    <p lang="en">
-      🎶
-      <br />
-      Everything stays
-      <br />
-      Right where you left it
-      <br />
-      Everything stays
-      <br />
-      But it still changes
-    </p>
-
-    <p lang="en">
-      Ever so slightly
-      <br />
-      Daily and nightly
-      <br />
-      In little ways
-      <br />
-      When everything stays
-      <br />
-      🎶
-    </p>
-
-    <p lang="en">Everything Stays (feat. Olivia Olson) - Rebecca Sugar</p>
-
-    <h2>Gêneros de jogos favoritos</h2>
-    <ul>
-      <li>RPG</li>
-      <li>Puzzle</li>
-      <li>Aventura</li>
-    </ul>
-
-    <h2>Top 10 jogos</h2>
-    <ol>
-      <li>The Elder Scrolls V: Skyrim</li>
-      <li>The Witcher 3: The Wild Hunt</li>
-      <li>Control</li>
-      <li>The Legend of Zelda: Ocarina of Time</li>
-      <li>The Legend of Zelda: Majora's Mask</li>
-      <li>The Legend of Zelda: A Link to the Past</li>
-      <li>Final Fantasy IX</li>
-      <li>Valkyrie Profile</li>
-      <li>Tales of Destiny II</li>
-      <li>Chrono Cross</li>
-    </ol>
-
-    <h2>Top 10 séries</h2>
-    <ol>
-      <li>Game of Thrones</li>
-      <li>The Wheel of Time</li>
-      <li>Dark</li>
-      <li>The Handmaid's Tale</li>
-      <li>Jane The Virgin</li>
-      <li>Modern Family</li>
-      <li>Steven Universe</li>
-      <li>Fullmetal Alchemist</li>
-      <li>Avatar: The Last Airbender</li>
-      <li>Avatar: The Legend of Korra</li>
-    </ol>
-  </body>
+    </body>
 </html>
